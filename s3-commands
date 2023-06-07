@@ -1,0 +1,3 @@
+
+aws s3 sync dist s3://ordenhafacil.com.br/ --profile vendeon
+aws cloudfront create-invalidation --distribution-id E15MWAPGWEWODH --paths "/*" --profile vendeon
